@@ -122,18 +122,7 @@ button_div=ttk.Button(box, text = '/',command=lambda:bu_div())
 button_div.grid(row=4,column=3)
 
 
-
+#This is to keep a constant size of the GUI window.
 box.resizable(0,0)
 
 
-
-'''
-try:
-        global expression
-        total = str(eval(expression))
-        equation.set(total)
-        expression=""
-    except:
-        equation.set(" Error ")
-        expression=""
-'''
