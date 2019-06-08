@@ -2,7 +2,6 @@
 
 from tkinter import *
 from tkinter import ttk
-global expression
 
 
 #Create a frame with variable as Box
